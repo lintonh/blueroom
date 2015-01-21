@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+
+ body {background-color:lightgray}
+h1 {color:blue}
+h2 {color:red}
+p {color:green}
+
+.hero{
+	height: 480px;
+	padding-top: 150px;
+	background:#12a5f4;
+}
+
+.hero h1, .hero h2 {
+	text-align: center;
+	color: #fff;
+}	
+
+.btn{
+	display: table;
+	text-align: center;
+}
+
+.main{
+	color: #12a5f4;
+}
+.main-heders{
+	color: #12a5f4;
+}
