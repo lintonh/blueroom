@@ -15,7 +15,7 @@
 			<div class="row">
 				by <%= User.find(@post.user_id).username %>
 			</div>
-			<% if @post.user_id = current_user.id %>
+			<% if @post.user_id == current_user.id %>
 			<%= link_to 'Edit', edit_post_path(@post) %> |
 			<%= link_to 'Delete ', @post, method: :delete, data: { confirm: 'Are you sure?' } %> |
 			<% end %>
